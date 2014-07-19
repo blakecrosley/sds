@@ -8,6 +8,7 @@
 
 #import "SDSFacultyTVC.h"
 #import "SDSTeacherTVCell.h"
+#import "SDSTeacherProfileVC.h"
 
 @interface SDSFacultyTVC ()
 @property (nonatomic, strong) NSArray *teacherNames;
@@ -116,16 +117,30 @@
     }
     
     // Configure the cell...
-    cell.teacherNameLabel.text = [self.teacherNames
-                           objectAtIndex: [indexPath row]];
+    cell.teacherNameLabel.text = [self.teacherNames objectAtIndex: [indexPath row]];
 
     
-    UIImage *teacherImage = [UIImage imageNamed:
-                         [self.teacherImages objectAtIndex: [indexPath row]]];
+    UIImage *teacherImage = [UIImage imageNamed: [self.teacherImages objectAtIndex: [indexPath row]]];
     
     cell.teacherImage.image = teacherImage;
     
     return cell;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"ShowTeacherDetails"])
+    {
+        SDSTeacherProfileVC *detailViewController =
+        [segue destinationViewController];
+        
+        NSIndexPath *myIndexPath = [self.tableView
+                                    indexPathForSelectedRow];
+        
+        long row = [myIndexPath row];
+        
+        detailViewController.teacherDetailModel = @[_teacherNames[row], _teacherImages[row]];
+    }
 }
 
 @end

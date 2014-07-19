@@ -26,6 +26,7 @@
 		250CA38E197B1DB0006A6735 /* SDSFacultyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA389197B1DB0006A6735 /* SDSFacultyTVC.m */; };
 		250CA38F197B1DB0006A6735 /* SDSScheduleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA38B197B1DB0006A6735 /* SDSScheduleTVC.m */; };
 		250CA390197B1DB0006A6735 /* SDSTeacherTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */; };
+		250CA398197B2084006A6735 /* SDSTeacherProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		250CA38B197B1DB0006A6735 /* SDSScheduleTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSScheduleTVC.m; sourceTree = "<group>"; };
 		250CA38C197B1DB0006A6735 /* SDSTeacherTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSTeacherTVCell.h; sourceTree = "<group>"; };
 		250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSTeacherTVCell.m; sourceTree = "<group>"; };
+		250CA396197B2084006A6735 /* SDSTeacherProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSTeacherProfileVC.h; sourceTree = "<group>"; };
+		250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSTeacherProfileVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				250CA38B197B1DB0006A6735 /* SDSScheduleTVC.m */,
 				250CA38C197B1DB0006A6735 /* SDSTeacherTVCell.h */,
 				250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */,
+				250CA396197B2084006A6735 /* SDSTeacherProfileVC.h */,
+				250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250CA398197B2084006A6735 /* SDSTeacherProfileVC.m in Sources */,
 				250CA390197B1DB0006A6735 /* SDSTeacherTVCell.m in Sources */,
 				250CA364197B1D0F006A6735 /* SDSFirstViewController.m in Sources */,
 				250CA38F197B1DB0006A6735 /* SDSScheduleTVC.m in Sources */,
@@ -510,6 +516,7 @@
 				250CA381197B1D0F006A6735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		250CA382197B1D0F006A6735 /* Build configuration list for PBXNativeTarget "SDS-2014-2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +525,7 @@
 				250CA384197B1D0F006A6735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
