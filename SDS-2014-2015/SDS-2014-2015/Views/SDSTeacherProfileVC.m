@@ -29,6 +29,7 @@
     
     _teacherNameLabel.text = _teacherDetailModel[0];
     _teacherImage.image = [UIImage imageNamed: _teacherDetailModel[1]];
+    _teacherBio.text = _teacherDetailModel[2];
     
 }
 
