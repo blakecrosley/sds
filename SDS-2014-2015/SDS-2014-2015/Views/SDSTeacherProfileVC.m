@@ -9,7 +9,6 @@
 #import "SDSTeacherProfileVC.h"
 
 @interface SDSTeacherProfileVC ()
-
 @end
 
 @implementation SDSTeacherProfileVC
@@ -30,6 +29,7 @@
     _teacherNameLabel.text = _teacherDetailModel[0];
     _teacherImage.image = [UIImage imageNamed: _teacherDetailModel[1]];
     _teacherBio.text = _teacherDetailModel[2];
+    [_teacherBio setFont:[UIFont systemFontOfSize:16.0]];
     
 }
 
