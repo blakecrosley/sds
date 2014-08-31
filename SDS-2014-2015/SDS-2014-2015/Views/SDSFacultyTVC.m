@@ -157,6 +157,9 @@
     // Configure the cell...
     cell.teacherNameLabel.text = [self.teacherNames objectAtIndex: [indexPath row]];
 
+    UIView *bgColorView = [[UIView alloc] init];
+    bgColorView.backgroundColor = [UIColor blackColor];
+    [cell setSelectedBackgroundView:bgColorView];
     
     UIImage *teacherImage = [UIImage imageNamed: [self.teacherImages objectAtIndex: [indexPath row]]];
     

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RUI-Mv-vbD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RUI-Mv-vbD">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Schedule-->
+        <!--ScheduleTVC - Schedule-->
         <scene sceneID="Gwg-wc-hin">
             <objects>
                 <tableViewController title="Schedule" id="Uk3-SH-00Z" customClass="SDSScheduleTVC" sceneMemberID="viewController">
@@ -16,7 +16,7 @@
                         <sections>
                             <tableViewSection headerTitle="Schedule" id="evH-m4-WeZ">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="wCQ-xp-I9N" detailTextLabel="0Q3-OY-2yD" style="IBUITableViewCellStyleSubtitle" id="OdO-NG-OkU">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="wCQ-xp-I9N" detailTextLabel="0Q3-OY-2yD" style="IBUITableViewCellStyleSubtitle" id="OdO-NG-OkU">
                                         <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OdO-NG-OkU" id="jps-uT-Y2h">
@@ -28,14 +28,14 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="highlightedColor" red="0.3921568627" green="0.73725490199999999" blue="0.27058823529999998" alpha="1" colorSpace="deviceRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="October 11th - 12th, 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Q3-OY-2yD">
                                                     <rect key="frame" x="15" y="25" width="145" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="highlightedColor" red="0.3921568627" green="0.73725490199999999" blue="0.27058823529999998" alpha="1" colorSpace="deviceRGB"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -43,7 +43,7 @@
                                             <segue destination="hpP-x3-4rn" kind="push" id="Oby-Sm-jhr"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell appearanceType="aqua" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="H7g-kS-KgD" detailTextLabel="Qcc-Lo-cdf" style="IBUITableViewCellStyleSubtitle" id="kIL-EW-EnY">
+                                    <tableViewCell appearanceType="aqua" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="H7g-kS-KgD" detailTextLabel="Qcc-Lo-cdf" style="IBUITableViewCellStyleSubtitle" id="kIL-EW-EnY">
                                         <rect key="frame" x="0.0" y="163" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kIL-EW-EnY" id="IYA-3c-XdA">
@@ -55,14 +55,14 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="highlightedColor" red="0.3921568627" green="0.73725490199999999" blue="0.27058823529999998" alpha="1" colorSpace="deviceRGB"/>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="February 28th - March 1st, 2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qcc-Lo-cdf">
                                                     <rect key="frame" x="15" y="25" width="180" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="highlightedColor" red="0.3921568627" green="0.73725490199999999" blue="0.27058823529999998" alpha="1" colorSpace="deviceRGB"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -70,7 +70,7 @@
                                             <segue destination="OwC-Bf-ieY" kind="push" id="tx6-Ru-sfa"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell appearanceType="aqua" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="5Nb-qf-jrG" detailTextLabel="sdU-Nd-INR" style="IBUITableViewCellStyleSubtitle" id="zSb-Ne-AA8">
+                                    <tableViewCell appearanceType="aqua" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="5Nb-qf-jrG" detailTextLabel="sdU-Nd-INR" style="IBUITableViewCellStyleSubtitle" id="zSb-Ne-AA8">
                                         <rect key="frame" x="0.0" y="207" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zSb-Ne-AA8" id="IMP-yL-V0k">
@@ -82,14 +82,14 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="highlightedColor" red="0.3921568627" green="0.73725490199999999" blue="0.27058823529999998" alpha="1" colorSpace="deviceRGB"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="April 25th - 26th, 2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sdU-Nd-INR">
-                                                    <rect key="frame" x="15" y="25" width="125" height="15"/>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="April 25th - April 26th, 2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sdU-Nd-INR">
+                                                    <rect key="frame" x="15" y="25" width="154" height="15"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="highlightedColor" red="0.3921568627" green="0.73725490199999999" blue="0.27058823529999998" alpha="1" colorSpace="deviceRGB"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -164,7 +164,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="teacherTableCell" id="k1R-ne-nZD" customClass="SDSTeacherTVCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="teacherTableCell" id="k1R-ne-nZD" customClass="SDSTeacherTVCell">
                                 <rect key="frame" x="0.0" y="119" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k1R-ne-nZD" id="jtE-zt-N7y">
@@ -175,7 +175,7 @@
                                             <rect key="frame" x="53" y="7" width="234" height="30"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="highlightedColor" red="0.40000000596046448" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="0.3921568627" green="0.73725490199999999" blue="0.27058823529999998" alpha="1" colorSpace="deviceRGB"/>
                                         </label>
                                         <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2Cm-ud-ctS">
                                             <rect key="frame" x="15" y="7" width="30" height="30"/>
@@ -247,7 +247,7 @@
             </objects>
             <point key="canvasLocation" x="1569" y="-138"/>
         </scene>
-        <!--Register-->
+        <!--View Controller - Register-->
         <scene sceneID="h5N-fh-75O">
             <objects>
                 <viewController id="b9g-Tt-a56" sceneMemberID="viewController">
@@ -308,7 +308,7 @@
             </objects>
             <point key="canvasLocation" x="1125" y="-941"/>
         </scene>
-        <!--Schedule-->
+        <!--Navigation Controller - Schedule-->
         <scene sceneID="TRG-Ay-mmd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hjg-ud-djz" sceneMemberID="viewController">
@@ -327,7 +327,7 @@
             </objects>
             <point key="canvasLocation" x="140" y="-1639"/>
         </scene>
-        <!--Faculty-->
+        <!--Navigation Controller - Faculty-->
         <scene sceneID="fiF-6f-wyI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lqq-tl-xAv" sceneMemberID="viewController">
@@ -350,12 +350,10 @@
     <resources>
         <image name="first" width="30" height="30"/>
     </resources>
+    <color key="tintColor" red="0.39215686274509803" green="0.73725490196078436" blue="0.27058823529411763" alpha="1" colorSpace="deviceRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4">
-            <size key="portraitSize" width="320" height="568"/>
-            <size key="landscapeSize" width="568" height="320"/>
-        </simulatedScreenMetrics>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
 </document>
