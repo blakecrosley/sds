@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RUI-Mv-vbD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RUI-Mv-vbD">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
     </dependencies>
     <scenes>
-        <!--ScheduleTVC - Schedule-->
+        <!--Schedule-->
         <scene sceneID="Gwg-wc-hin">
             <objects>
                 <tableViewController title="Schedule" id="Uk3-SH-00Z" customClass="SDSScheduleTVC" sceneMemberID="viewController">
@@ -175,7 +175,7 @@
                                             <rect key="frame" x="53" y="7" width="234" height="30"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
+                                            <color key="highlightedColor" red="0.40000000596046448" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
                                         <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2Cm-ud-ctS">
                                             <rect key="frame" x="15" y="7" width="30" height="30"/>
@@ -210,7 +210,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="IHI-iC-JFb">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="523"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="AeH-dz-2IA">
@@ -223,17 +223,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Teacher bio..." selectable="NO" id="sJj-gm-LPm">
-                                        <rect key="frame" x="20" y="179" width="280" height="1300"/>
+                                        <rect key="frame" x="20" y="179" width="280" height="325"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
-                                        <size key="value" width="320" height="1425"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -242,6 +237,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
+                        <outlet property="teachBioScrollView" destination="IHI-iC-JFb" id="7Zh-8Q-wf8"/>
                         <outlet property="teacherBio" destination="sJj-gm-LPm" id="UaN-Bu-Xcf"/>
                         <outlet property="teacherImage" destination="AeH-dz-2IA" id="ZLx-7y-sqT"/>
                         <outlet property="teacherNameLabel" destination="3f8-Ab-msL" id="o05-wB-kV5"/>
@@ -251,7 +247,7 @@
             </objects>
             <point key="canvasLocation" x="1569" y="-138"/>
         </scene>
-        <!--View Controller - Register-->
+        <!--Register-->
         <scene sceneID="h5N-fh-75O">
             <objects>
                 <viewController id="b9g-Tt-a56" sceneMemberID="viewController">
@@ -312,7 +308,7 @@
             </objects>
             <point key="canvasLocation" x="1125" y="-941"/>
         </scene>
-        <!--Navigation Controller - Schedule-->
+        <!--Schedule-->
         <scene sceneID="TRG-Ay-mmd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hjg-ud-djz" sceneMemberID="viewController">
@@ -331,7 +327,7 @@
             </objects>
             <point key="canvasLocation" x="140" y="-1639"/>
         </scene>
-        <!--Navigation Controller - Faculty-->
+        <!--Faculty-->
         <scene sceneID="fiF-6f-wyI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lqq-tl-xAv" sceneMemberID="viewController">
@@ -357,6 +353,9 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination" type="retina4">
+            <size key="portraitSize" width="320" height="568"/>
+            <size key="landscapeSize" width="568" height="320"/>
+        </simulatedScreenMetrics>
     </simulatedMetricsContainer>
 </document>

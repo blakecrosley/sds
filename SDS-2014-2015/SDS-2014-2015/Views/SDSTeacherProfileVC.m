@@ -9,9 +9,11 @@
 #import "SDSTeacherProfileVC.h"
 
 @interface SDSTeacherProfileVC ()
+@property (nonatomic, strong) IBOutlet UIScrollView *teachBioScrollView;
 @end
 
 @implementation SDSTeacherProfileVC
+@synthesize teachBioScrollView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,11 +28,26 @@
 {
     [super viewDidLoad];
     
-    _teacherNameLabel.text = _teacherDetailModel[0];
-    _teacherImage.image = [UIImage imageNamed: _teacherDetailModel[1]];
-    _teacherBio.text = _teacherDetailModel[2];
-    [_teacherBio setFont:[UIFont systemFontOfSize:16.0]];
+    self.teacherNameLabel.text = _teacherDetailModel[0];
+    self.teacherImage.image = [UIImage imageNamed: _teacherDetailModel[1]];
+    self.teacherBio.text = _teacherDetailModel[2];
+    [self.teacherBio setFont:[UIFont systemFontOfSize:16.0]];
     
+//    teachBioScrollView
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    [self.teacherBio sizeToFit];
+    CGSize contentSize = [self.teacherBio sizeThatFits:self.teacherBio.frame.size];
+    
+    self.teacherBio.frame = CGRectMake(self.teacherBio.frame.origin.x, self.teacherBio.frame.origin.y, contentSize.width, contentSize.height);
+
+    CGSize containerSize = CGSizeMake(contentSize.width, contentSize.height + self.teacherBio.frame.origin.y);
+    self.teachBioScrollView.contentSize = containerSize;
 }
 
 - (void)didReceiveMemoryWarning
