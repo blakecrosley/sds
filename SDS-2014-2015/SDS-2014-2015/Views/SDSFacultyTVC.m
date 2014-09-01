@@ -36,7 +36,7 @@
 {
     [super viewDidLoad];
     
-    
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
     self.teacherNames = [[NSArray alloc]
                      initWithObjects:
                          @"Luam",

@@ -27,6 +27,8 @@
 		250CA38F197B1DB0006A6735 /* SDSScheduleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA38B197B1DB0006A6735 /* SDSScheduleTVC.m */; };
 		250CA390197B1DB0006A6735 /* SDSTeacherTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */; };
 		250CA398197B2084006A6735 /* SDSTeacherProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */; };
+		25CB36B519B4338D00F5000A /* SDSMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B419B4338D00F5000A /* SDSMainTBC.m */; };
+		25CB36B819B43A6E00F5000A /* SDSSocialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B719B43A6E00F5000A /* SDSSocialVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,10 @@
 		250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSTeacherTVCell.m; sourceTree = "<group>"; };
 		250CA396197B2084006A6735 /* SDSTeacherProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSTeacherProfileVC.h; sourceTree = "<group>"; };
 		250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSTeacherProfileVC.m; sourceTree = "<group>"; };
+		25CB36B319B4338D00F5000A /* SDSMainTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSMainTBC.h; sourceTree = "<group>"; };
+		25CB36B419B4338D00F5000A /* SDSMainTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSMainTBC.m; sourceTree = "<group>"; };
+		25CB36B619B43A6E00F5000A /* SDSSocialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSSocialVC.h; sourceTree = "<group>"; };
+		25CB36B719B43A6E00F5000A /* SDSSocialVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSSocialVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +190,10 @@
 				250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */,
 				250CA396197B2084006A6735 /* SDSTeacherProfileVC.h */,
 				250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */,
+				25CB36B319B4338D00F5000A /* SDSMainTBC.h */,
+				25CB36B419B4338D00F5000A /* SDSMainTBC.m */,
+				25CB36B619B43A6E00F5000A /* SDSSocialVC.h */,
+				25CB36B719B43A6E00F5000A /* SDSSocialVC.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,8 +310,10 @@
 				250CA38F197B1DB0006A6735 /* SDSScheduleTVC.m in Sources */,
 				250CA367197B1D0F006A6735 /* SDSSecondViewController.m in Sources */,
 				250CA357197B1D0F006A6735 /* main.m in Sources */,
+				25CB36B819B43A6E00F5000A /* SDSSocialVC.m in Sources */,
 				250CA38E197B1DB0006A6735 /* SDSFacultyTVC.m in Sources */,
 				250CA35B197B1D0F006A6735 /* SDSAppDelegate.m in Sources */,
+				25CB36B519B4338D00F5000A /* SDSMainTBC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
