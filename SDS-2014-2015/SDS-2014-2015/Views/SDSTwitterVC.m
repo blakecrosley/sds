@@ -35,10 +35,25 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
     
-    NSString *fullURL = @"https://twitter.com/souldesoul";
-    NSURL *url = [NSURL URLWithString:fullURL];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [twitterWV loadRequest:requestObj];
+    //1
+    NSString *urlString = @"https://twitter.com/souldesoul";
+    
+    //2
+    NSURL *url = [NSURL URLWithString:urlString];
+    
+    //3
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    //4
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    
+    //5
+    [NSURLConnection sendAsynchronousRequest:request queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error)
+     {
+         if ([data length] > 0 && error == nil) [twitterWV loadRequest:request];
+         else if (error != nil) NSLog(@"Error: %@", error);
+     }];
+
 }
 
 /*

@@ -29,10 +29,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSString *fullURL = @"http://www.instagram.com/souldesoul";
-    NSURL *url = [NSURL URLWithString:fullURL];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [instagramWV loadRequest:requestObj];
+    //1
+    NSString *urlString = @"http://www.instagram.com/souldesoul";
+    
+    //2
+    NSURL *url = [NSURL URLWithString:urlString];
+    
+    //3
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    //4
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    
+    //5
+    [NSURLConnection sendAsynchronousRequest:request queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error)
+     {
+         if ([data length] > 0 && error == nil) [instagramWV loadRequest:request];
+         else if (error != nil) NSLog(@"Error: %@", error);
+     }];
+    
 }
 
 - (void)didReceiveMemoryWarning
