@@ -28,9 +28,11 @@
 {
     [super viewDidLoad];
     
-    self.teacherNameLabel.text = _teacherDetailModel[0];
-    self.teacherImage.image = [UIImage imageNamed: _teacherDetailModel[1]];
-    self.teacherBio.text = _teacherDetailModel[2];
+    self.teacherNameLabel.text = self.teacherDetailModel[0];
+    self.teacherImage.image = [UIImage imageNamed: self.teacherDetailModel[1]];
+    self.teacherBio.text = self.teacherDetailModel[2];
+    self.teacherImageBlurred.image = [UIImage imageNamed: self.teacherDetailModel[3]];
+    
     [self.teacherBio setFont:[UIFont systemFontOfSize:16.0]];
     
 //    teachBioScrollView

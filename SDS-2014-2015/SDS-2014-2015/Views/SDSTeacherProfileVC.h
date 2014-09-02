@@ -12,5 +12,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *teacherImage;
 @property (strong, nonatomic) IBOutlet UILabel *teacherNameLabel;
 @property (strong, nonatomic) IBOutlet UITextView *teacherBio;
+@property (strong, nonatomic) IBOutlet UIImageView *teacherImageBlurred;
 @property (strong, nonatomic) NSArray *teacherDetailModel;
 @end

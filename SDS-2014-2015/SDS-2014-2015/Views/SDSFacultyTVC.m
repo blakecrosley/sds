@@ -14,16 +14,16 @@
 @property (nonatomic, strong) NSArray *teacherNames;
 @property (nonatomic, strong) NSArray *teacherImages;
 @property (nonatomic, strong) NSArray *teacherImagesLarge;
-@property (nonatomic, strong) NSArray *teacherImagesBlurred;
 @property (nonatomic, strong) NSArray *teacherBio;
+@property (nonatomic, strong) NSArray *teacherImagesBlurred;
 @end
 
 @implementation SDSFacultyTVC
-@synthesize teacherNames        = _teacherNames;
-@synthesize teacherImages       = _teacherImages;
-@synthesize teacherImagesLarge  = _teacherImagesLarge;
-@synthesize teacherImagesBlurred  = _teacherImagesBlurred;
-@synthesize teacherBio          = _teacherBio;
+@synthesize teacherNames            = _teacherNames;
+@synthesize teacherImages           = _teacherImages;
+@synthesize teacherImagesLarge      = _teacherImagesLarge;
+@synthesize teacherBio              = _teacherBio;
+@synthesize teacherImagesBlurred    = _teacherImagesBlurred;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -116,6 +116,25 @@
                           @"Giovanni Allen is originally from New York City but Currently based In Dallas, TX. He received his early training at the Alvin Ailey American Dance Theater and American Ballet Theater. He did his undergraduate work at the California Institute for the Arts in LA. During his time at school he was invited In 2008, to Choreograph Works on the International company at the Barcelona International Course of Dance in Spain as well as the Greece Dance Festival. He has worked with artists such as; Rodolfo Castellanos, Jean Emile, Juan Borona and Roger Jeffrey. After Spain, he was chosen to represent Cal Arts at the American College Dance festival in 2009. That same year he was cast in the NYC Broadway holiday show \"Radio City Christmas spectacular\". In the summer of 2010, he made Texas home where he has been teaching modern, lyrical, contemporary, hip-hop, jazz, and ballet and choreographing for numerous studios and Hs school drill teams in the metroplex. Giovanni has made a name for himself in the Dallas area choreographing award winning dances. He brings that certain \"Spark\" to every class and piece of work. He draws from a large range of influences, musical, literary, social and even nature. His goal is to simply spread his vision and teachings all over the world. Giovanni has also judged for numerous pro dance teams such as the Dallas Rhythm and Blue dancers and the Texas Revolution Dancers. When he isn't in local studios guest teaching and choreographing he travels to judge at regional dance competitions. He is very pleased and honored to be joining the Soul de Soul Dance Convention later this year. He could not have asked for a better dance family.",
                           @"With over 10 years of professional choreography and performance experience, Kelly Stevens brings a cutting edge style and dynamic energy to the performance stage. A proud graduate of the University of Central Oklahoma, Kelly was a member of Kaleidoscope Dance Company and UCO Pom. Following graduation, Kelly moved to New York to continue her training at Broadway Dance Center, Steps on Broadway and Peridance. Her time spent in New York allowed her the opportunity to perform professionally in New York, Ohio, Oklahoma and Missouri. A product of diverse training with some of the best choreographers in the United States, Kelly has developed a style and method of composition that compliments the abilities of dancers at all stages of growth and development. Having been recognized countless times for her unique and entertaining choreography both regionally and nationally, she maintains that the magic lies in the hands of the artists executing her work. Her spectrum of teaching includes studio dancers across the country, master classes for university dance and musical theatre programs, and staging/choreographing countless regional musical theatre productions.\n\nA passionate competitor, when Kelly is not helping build and develop performers at dance studios, universities and on the professional stage, she is the driving force behind several highly reputable and award winning high school and collegiate level dance teams in the nation. Her teams consistently place in the top 5 nationally and are recognized for their choreography and outstanding technical execution. She is the choreographer for the 8 time Missouri State Champion Dance Team: The Saint Francis Borgia Starry Knights and Maryville University. Kelly is also the head coach and choreographer for the Seckman Varsity JagSwag Dance Team. This year, her work at Seckman High School earned the team 2nd place in Medium Varsity Jazz. Kelly is also the main stage production choreographer for Six Flags, St. Louis and is a staff choreographer for On Your Toes Dance Studio.",
                           nil];
+    self.teacherImagesBlurred = [[NSArray alloc]
+                               initWithObjects:
+                               @"luam-blurred",
+                               @"jenn-blurred",
+                               @"teddy-blurred",
+                               @"justine-blurred",
+                               @"audrey-blurred",
+                               @"mackenzie-blurred",
+                               @"hilary-blurred",
+                               @"alex-blurred",
+                               @"victoria-blurred",
+                               @"sarah-blurred",
+                               @"amelia-blurred",
+                               @"cj-blurred",
+                               @"lynse-blurred",
+                               @"cameron-blurred",
+                               @"giovanni-blurred",
+                               @"kelly-blurred",
+                               nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -182,7 +201,7 @@
         
         long row = [myIndexPath row];
         
-        detailViewController.teacherDetailModel = @[_teacherNames[row], _teacherImagesLarge[row], _teacherBio[row]];
+        detailViewController.teacherDetailModel = @[self.teacherNames[row], self.teacherImagesLarge[row], self.teacherBio[row], self.teacherImagesBlurred[row]];
     }
 }
 
