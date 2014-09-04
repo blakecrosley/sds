@@ -37,6 +37,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Event Handlers
+
+- (IBAction)instagramTUI:(id)sender {
+    [self navigateToURL:[NSURL URLWithString:@"http://www.instagram.com/souldesoul"]];
+}
+
+- (IBAction)facebookTUI:(id)sender {
+    [self navigateToURL:[NSURL URLWithString:@"http://www.facebook.com/souldesoul"]];
+}
+
+- (IBAction)twitterTUI:(id)sender {
+    [self navigateToURL:[NSURL URLWithString:@"http://www.twitter.com/souldesoul"]];
+}
+
+- (void)navigateToURL:(NSURL*)url
+{
+    SDSWebViewController *webVC = [[SDSWebViewController alloc] initWithNibName:@"SDSWebViewController" bundle:nil];
+    webVC.url = url;
+    [self.navigationController pushViewController:webVC animated:YES];
+}
+
 /*
 #pragma mark - Navigation
 

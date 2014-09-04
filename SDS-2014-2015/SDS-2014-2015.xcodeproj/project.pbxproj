@@ -15,8 +15,6 @@
 		250CA35B197B1D0F006A6735 /* SDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA35A197B1D0F006A6735 /* SDSAppDelegate.m */; };
 		250CA35E197B1D0F006A6735 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250CA35C197B1D0F006A6735 /* Main_iPhone.storyboard */; };
 		250CA361197B1D0F006A6735 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250CA35F197B1D0F006A6735 /* Main_iPad.storyboard */; };
-		250CA364197B1D0F006A6735 /* SDSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA363197B1D0F006A6735 /* SDSFirstViewController.m */; };
-		250CA367197B1D0F006A6735 /* SDSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA366197B1D0F006A6735 /* SDSSecondViewController.m */; };
 		250CA369197B1D0F006A6735 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250CA368197B1D0F006A6735 /* Images.xcassets */; };
 		250CA370197B1D0F006A6735 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250CA36F197B1D0F006A6735 /* XCTest.framework */; };
 		250CA371197B1D0F006A6735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250CA34A197B1D0F006A6735 /* Foundation.framework */; };
@@ -27,13 +25,13 @@
 		250CA38F197B1DB0006A6735 /* SDSScheduleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA38B197B1DB0006A6735 /* SDSScheduleTVC.m */; };
 		250CA390197B1DB0006A6735 /* SDSTeacherTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */; };
 		250CA398197B2084006A6735 /* SDSTeacherProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */; };
+		25366A9B19B7F9EF00EB2F1F /* SDSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25366A9919B7F9EF00EB2F1F /* SDSWebViewController.m */; };
+		25366A9C19B7F9EF00EB2F1F /* SDSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25366A9A19B7F9EF00EB2F1F /* SDSWebViewController.xib */; };
 		25CB36B519B4338D00F5000A /* SDSMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B419B4338D00F5000A /* SDSMainTBC.m */; };
 		25CB36B819B43A6E00F5000A /* SDSSocialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B719B43A6E00F5000A /* SDSSocialVC.m */; };
 		25CB36BB19B55FCB00F5000A /* SDSNewYorkRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36BA19B55FCB00F5000A /* SDSNewYorkRegisterVC.m */; };
 		25CB36BE19B5653400F5000A /* SDSLosAngelesRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36BD19B5653400F5000A /* SDSLosAngelesRegisterVC.m */; };
-		25CB36C119B56A9700F5000A /* SDSInstagramVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36C019B56A9700F5000A /* SDSInstagramVC.m */; };
-		25CB36C419B56AA800F5000A /* SDSFacebookVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36C319B56AA800F5000A /* SDSFacebookVC.m */; };
-		25CB36C719B56ABD00F5000A /* SDSTwitterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36C619B56ABD00F5000A /* SDSTwitterVC.m */; };
+		D7E25C6364F04A2588B6D697 /* libPods-SDS-2014-2015.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBFE4E83784A98838E9B00 /* libPods-SDS-2014-2015.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EDBFE4E83784A98838E9B00 /* libPods-SDS-2014-2015.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDS-2014-2015.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		250CA347197B1D0F006A6735 /* SDS-2014-2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDS-2014-2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		250CA34A197B1D0F006A6735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		250CA34C197B1D0F006A6735 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,10 +58,6 @@
 		250CA35A197B1D0F006A6735 /* SDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSAppDelegate.m; sourceTree = "<group>"; };
 		250CA35D197B1D0F006A6735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		250CA360197B1D0F006A6735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		250CA362197B1D0F006A6735 /* SDSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDSFirstViewController.h; sourceTree = "<group>"; };
-		250CA363197B1D0F006A6735 /* SDSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSFirstViewController.m; sourceTree = "<group>"; };
-		250CA365197B1D0F006A6735 /* SDSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDSSecondViewController.h; sourceTree = "<group>"; };
-		250CA366197B1D0F006A6735 /* SDSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSSecondViewController.m; sourceTree = "<group>"; };
 		250CA368197B1D0F006A6735 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		250CA36E197B1D0F006A6735 /* SDS-2014-2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDS-2014-2015Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		250CA36F197B1D0F006A6735 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -77,6 +72,9 @@
 		250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSTeacherTVCell.m; sourceTree = "<group>"; };
 		250CA396197B2084006A6735 /* SDSTeacherProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSTeacherProfileVC.h; sourceTree = "<group>"; };
 		250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSTeacherProfileVC.m; sourceTree = "<group>"; };
+		25366A9819B7F9EF00EB2F1F /* SDSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDSWebViewController.h; path = WebViews/SDSWebViewController.h; sourceTree = "<group>"; };
+		25366A9919B7F9EF00EB2F1F /* SDSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDSWebViewController.m; path = WebViews/SDSWebViewController.m; sourceTree = "<group>"; };
+		25366A9A19B7F9EF00EB2F1F /* SDSWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SDSWebViewController.xib; path = WebViews/SDSWebViewController.xib; sourceTree = "<group>"; };
 		25CB36B319B4338D00F5000A /* SDSMainTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSMainTBC.h; sourceTree = "<group>"; };
 		25CB36B419B4338D00F5000A /* SDSMainTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSMainTBC.m; sourceTree = "<group>"; };
 		25CB36B619B43A6E00F5000A /* SDSSocialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSSocialVC.h; sourceTree = "<group>"; };
@@ -85,12 +83,7 @@
 		25CB36BA19B55FCB00F5000A /* SDSNewYorkRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSNewYorkRegisterVC.m; sourceTree = "<group>"; };
 		25CB36BC19B5653400F5000A /* SDSLosAngelesRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSLosAngelesRegisterVC.h; sourceTree = "<group>"; };
 		25CB36BD19B5653400F5000A /* SDSLosAngelesRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSLosAngelesRegisterVC.m; sourceTree = "<group>"; };
-		25CB36BF19B56A9700F5000A /* SDSInstagramVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSInstagramVC.h; sourceTree = "<group>"; };
-		25CB36C019B56A9700F5000A /* SDSInstagramVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSInstagramVC.m; sourceTree = "<group>"; };
-		25CB36C219B56AA800F5000A /* SDSFacebookVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSFacebookVC.h; sourceTree = "<group>"; };
-		25CB36C319B56AA800F5000A /* SDSFacebookVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSFacebookVC.m; sourceTree = "<group>"; };
-		25CB36C519B56ABD00F5000A /* SDSTwitterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSTwitterVC.h; sourceTree = "<group>"; };
-		25CB36C619B56ABD00F5000A /* SDSTwitterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSTwitterVC.m; sourceTree = "<group>"; };
+		F962D58E18AD4B47AB4C29E1 /* Pods-SDS-2014-2015.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDS-2014-2015.xcconfig"; path = "Pods/Pods-SDS-2014-2015.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +94,7 @@
 				250CA34D197B1D0F006A6735 /* CoreGraphics.framework in Frameworks */,
 				250CA34F197B1D0F006A6735 /* UIKit.framework in Frameworks */,
 				250CA34B197B1D0F006A6735 /* Foundation.framework in Frameworks */,
+				D7E25C6364F04A2588B6D697 /* libPods-SDS-2014-2015.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +118,7 @@
 				250CA375197B1D0F006A6735 /* SDS-2014-2015Tests */,
 				250CA349197B1D0F006A6735 /* Frameworks */,
 				250CA348197B1D0F006A6735 /* Products */,
+				F962D58E18AD4B47AB4C29E1 /* Pods-SDS-2014-2015.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +138,7 @@
 				250CA34C197B1D0F006A6735 /* CoreGraphics.framework */,
 				250CA34E197B1D0F006A6735 /* UIKit.framework */,
 				250CA36F197B1D0F006A6735 /* XCTest.framework */,
+				0EDBFE4E83784A98838E9B00 /* libPods-SDS-2014-2015.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,10 +151,6 @@
 				250CA35A197B1D0F006A6735 /* SDSAppDelegate.m */,
 				250CA35C197B1D0F006A6735 /* Main_iPhone.storyboard */,
 				250CA35F197B1D0F006A6735 /* Main_iPad.storyboard */,
-				250CA362197B1D0F006A6735 /* SDSFirstViewController.h */,
-				250CA363197B1D0F006A6735 /* SDSFirstViewController.m */,
-				250CA365197B1D0F006A6735 /* SDSSecondViewController.h */,
-				250CA366197B1D0F006A6735 /* SDSSecondViewController.m */,
 				250CA368197B1D0F006A6735 /* Images.xcassets */,
 				250CA351197B1D0F006A6735 /* Supporting Files */,
 			);
@@ -197,6 +189,7 @@
 		250CA387197B1DB0006A6735 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				25366A9719B7F9CF00EB2F1F /* WebViews */,
 				250CA388197B1DB0006A6735 /* SDSFacultyTVC.h */,
 				250CA389197B1DB0006A6735 /* SDSFacultyTVC.m */,
 				250CA38A197B1DB0006A6735 /* SDSScheduleTVC.h */,
@@ -213,14 +206,18 @@
 				25CB36BA19B55FCB00F5000A /* SDSNewYorkRegisterVC.m */,
 				25CB36BC19B5653400F5000A /* SDSLosAngelesRegisterVC.h */,
 				25CB36BD19B5653400F5000A /* SDSLosAngelesRegisterVC.m */,
-				25CB36BF19B56A9700F5000A /* SDSInstagramVC.h */,
-				25CB36C019B56A9700F5000A /* SDSInstagramVC.m */,
-				25CB36C219B56AA800F5000A /* SDSFacebookVC.h */,
-				25CB36C319B56AA800F5000A /* SDSFacebookVC.m */,
-				25CB36C519B56ABD00F5000A /* SDSTwitterVC.h */,
-				25CB36C619B56ABD00F5000A /* SDSTwitterVC.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		25366A9719B7F9CF00EB2F1F /* WebViews */ = {
+			isa = PBXGroup;
+			children = (
+				25366A9819B7F9EF00EB2F1F /* SDSWebViewController.h */,
+				25366A9919B7F9EF00EB2F1F /* SDSWebViewController.m */,
+				25366A9A19B7F9EF00EB2F1F /* SDSWebViewController.xib */,
+			);
+			name = WebViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 250CA37F197B1D0F006A6735 /* Build configuration list for PBXNativeTarget "SDS-2014-2015" */;
 			buildPhases = (
+				2CDCB376CD73424490A997D3 /* Check Pods Manifest.lock */,
 				250CA343197B1D0F006A6735 /* Sources */,
 				250CA344197B1D0F006A6735 /* Frameworks */,
 				250CA345197B1D0F006A6735 /* Resources */,
+				3035D8BA9E7A4E46977C6E30 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25366A9C19B7F9EF00EB2F1F /* SDSWebViewController.xib in Resources */,
 				250CA361197B1D0F006A6735 /* Main_iPad.storyboard in Resources */,
 				250CA369197B1D0F006A6735 /* Images.xcassets in Resources */,
 				250CA35E197B1D0F006A6735 /* Main_iPhone.storyboard in Resources */,
@@ -324,24 +324,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CDCB376CD73424490A997D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3035D8BA9E7A4E46977C6E30 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SDS-2014-2015-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		250CA343197B1D0F006A6735 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25366A9B19B7F9EF00EB2F1F /* SDSWebViewController.m in Sources */,
 				250CA398197B2084006A6735 /* SDSTeacherProfileVC.m in Sources */,
 				25CB36BE19B5653400F5000A /* SDSLosAngelesRegisterVC.m in Sources */,
 				25CB36BB19B55FCB00F5000A /* SDSNewYorkRegisterVC.m in Sources */,
 				250CA390197B1DB0006A6735 /* SDSTeacherTVCell.m in Sources */,
-				250CA364197B1D0F006A6735 /* SDSFirstViewController.m in Sources */,
-				25CB36C719B56ABD00F5000A /* SDSTwitterVC.m in Sources */,
 				250CA38F197B1DB0006A6735 /* SDSScheduleTVC.m in Sources */,
-				25CB36C119B56A9700F5000A /* SDSInstagramVC.m in Sources */,
-				250CA367197B1D0F006A6735 /* SDSSecondViewController.m in Sources */,
 				250CA357197B1D0F006A6735 /* main.m in Sources */,
 				25CB36B819B43A6E00F5000A /* SDSSocialVC.m in Sources */,
 				250CA38E197B1DB0006A6735 /* SDSFacultyTVC.m in Sources */,
-				25CB36C419B56AA800F5000A /* SDSFacebookVC.m in Sources */,
 				250CA35B197B1D0F006A6735 /* SDSAppDelegate.m in Sources */,
 				25CB36B519B4338D00F5000A /* SDSMainTBC.m in Sources */,
 			);
@@ -475,6 +504,7 @@
 		};
 		250CA380197B1D0F006A6735 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F962D58E18AD4B47AB4C29E1 /* Pods-SDS-2014-2015.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -488,6 +518,7 @@
 		};
 		250CA381197B1D0F006A6735 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F962D58E18AD4B47AB4C29E1 /* Pods-SDS-2014-2015.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

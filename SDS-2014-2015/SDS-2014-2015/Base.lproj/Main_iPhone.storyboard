@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RUI-Mv-vbD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="RUI-Mv-vbD">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -345,7 +345,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="R9p-V1-94F" kind="push" id="VRU-29-Bk4"/>
+                                    <action selector="instagramTUI:" destination="IEH-PU-5j2" eventType="touchUpInside" id="hQ6-BZ-4cM"/>
                                 </connections>
                             </button>
                             <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="V8n-E4-Qks">
@@ -356,7 +356,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8gE-hU-qDj" kind="push" id="J3x-bM-QFf"/>
+                                    <action selector="facebookTUI:" destination="IEH-PU-5j2" eventType="touchUpInside" id="ydb-Hn-cMG"/>
                                 </connections>
                             </button>
                             <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="haq-9Z-Ia4">
@@ -367,7 +367,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0eP-ee-yHY" kind="push" id="vU3-iz-AOv"/>
+                                    <action selector="twitterTUI:" destination="IEH-PU-5j2" eventType="touchUpInside" id="Oeo-Fc-gI8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2738,81 +2738,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o29-ZE-CE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1573" y="-685"/>
-        </scene>
-        <!--InstagramVC - SDS Instagram-->
-        <scene sceneID="BCK-Vf-jGS">
-            <objects>
-                <viewController id="R9p-V1-94F" customClass="SDSInstagramVC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vRs-QM-UIJ">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView appearanceType="aqua" contentMode="scaleToFill" id="ihX-nS-Nf1">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="SDS Instagram" id="NmN-sV-XGx"/>
-                    <connections>
-                        <outlet property="instagramWV" destination="ihX-nS-Nf1" id="j8O-hA-VnJ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xxh-N0-saz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1141" y="1253"/>
-        </scene>
-        <!--FacebookVC - SDS Facebook-->
-        <scene sceneID="a4e-QQ-gcb">
-            <objects>
-                <viewController id="8gE-hU-qDj" customClass="SDSFacebookVC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Rcg-mx-CJq">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView appearanceType="aqua" contentMode="scaleToFill" id="vUc-FS-iiP">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="SDS Facebook" id="rrj-vn-NCL"/>
-                    <connections>
-                        <outlet property="facebookWV" destination="vUc-FS-iiP" id="XhG-TG-ggY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lrG-iL-wQX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1533" y="1253"/>
-        </scene>
-        <!--TwitterVC - SDS Twitter-->
-        <scene sceneID="4UL-gH-cid">
-            <objects>
-                <viewController id="0eP-ee-yHY" customClass="SDSTwitterVC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RPY-39-C2f">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView appearanceType="aqua" contentMode="scaleToFill" id="TnB-11-tJC">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="SDS Twitter" id="VBf-ry-69f"/>
-                    <connections>
-                        <outlet property="twitterWV" destination="TnB-11-tJC" id="WXh-0p-uI8"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nU1-88-kqD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1357" y="1943"/>
         </scene>
     </scenes>
     <resources>

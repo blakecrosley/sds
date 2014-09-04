@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF637E1E-35D3-4873-B8A6-E639E81AF788</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SDS-2014-2015</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58D342D5-3CB3-4A4A-9C0E-CD6CB6773EE1</key>
+		<string>ssh://github.com/blakecrosley/sds.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SDS-2014-2015/SDS-2014-2015.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58D342D5-3CB3-4A4A-9C0E-CD6CB6773EE1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/blakecrosley/sds.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58D342D5-3CB3-4A4A-9C0E-CD6CB6773EE1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58D342D5-3CB3-4A4A-9C0E-CD6CB6773EE1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sds</string>
+		</dict>
+	</array>
+</dict>
+</plist>
