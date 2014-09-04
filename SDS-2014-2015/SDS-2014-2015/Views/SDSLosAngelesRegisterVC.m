@@ -28,11 +28,18 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
 
-    NSString *fullURL = @"http://www.eventbrite.com/e/soul-de-soul-dance-convention-los-angeles-ca-registration-12265405157";
-    NSURL *url = [NSURL URLWithString:fullURL];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [laRegisterWV loadRequest:requestObj];
+#pragma mark - Event Handlers
+- (IBAction)registerNycTUI:(id)sender {
+    [self navigateToURL:[NSURL URLWithString:@"http://www.eventbrite.com/e/soul-de-soul-dance-convention-los-angeles-ca-registration-12265405157"]];
+}
+
+- (void)navigateToURL:(NSURL*)url
+{
+    SDSWebViewController *webVC = [[SDSWebViewController alloc] initWithNibName:@"SDSWebViewController" bundle:nil];
+    webVC.url = url;
+    [self.navigationController pushViewController:webVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

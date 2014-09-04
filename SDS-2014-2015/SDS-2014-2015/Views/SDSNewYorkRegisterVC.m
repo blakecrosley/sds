@@ -30,13 +30,21 @@
 {
     [super viewDidLoad];
 
-    NSString *fullURL = @"https://www.eventbrite.com/e/soul-de-soul-dance-convention-new-york-city-ny-registration-12265397133";
-    // NSString *fullURL = @"https://twitter.com/souldesoul";
-    NSURL *url = [NSURL URLWithString:fullURL];
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [nycRegisterWV loadRequest:requestObj];
-
 }
+
+
+#pragma mark - Event Handlers
+- (IBAction)registerNycTUI:(id)sender {
+    [self navigateToURL:[NSURL URLWithString:@"https://www.eventbrite.com/e/soul-de-soul-dance-convention-new-york-city-ny-registration-12265397133"]];
+}
+
+- (void)navigateToURL:(NSURL*)url
+{
+    SDSWebViewController *webVC = [[SDSWebViewController alloc] initWithNibName:@"SDSWebViewController" bundle:nil];
+    webVC.url = url;
+    [self.navigationController pushViewController:webVC animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning
 {
