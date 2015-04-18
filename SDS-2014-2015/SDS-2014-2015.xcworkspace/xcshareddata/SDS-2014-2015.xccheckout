@@ -10,29 +10,29 @@
 	<string>SDS-2014-2015</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>58D342D5-3CB3-4A4A-9C0E-CD6CB6773EE1</key>
+		<key>49A6BAC18114640444F15331CDA6071B67937E19</key>
 		<string>ssh://github.com/blakecrosley/sds.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SDS-2014-2015/SDS-2014-2015.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>58D342D5-3CB3-4A4A-9C0E-CD6CB6773EE1</key>
+		<key>49A6BAC18114640444F15331CDA6071B67937E19</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/blakecrosley/sds.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>58D342D5-3CB3-4A4A-9C0E-CD6CB6773EE1</string>
+	<string>49A6BAC18114640444F15331CDA6071B67937E19</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>58D342D5-3CB3-4A4A-9C0E-CD6CB6773EE1</string>
+			<string>49A6BAC18114640444F15331CDA6071B67937E19</string>
 			<key>IDESourceControlWCCName</key>
 			<string>sds</string>
 		</dict>
