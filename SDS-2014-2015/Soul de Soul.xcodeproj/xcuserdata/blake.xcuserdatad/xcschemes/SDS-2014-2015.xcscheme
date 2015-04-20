@@ -17,7 +17,7 @@
                BlueprintIdentifier = "250CA346197B1D0F006A6735"
                BuildableName = "SDS-2014-2015.app"
                BlueprintName = "SDS-2014-2015"
-               ReferencedContainer = "container:SDS-2014-2015.xcodeproj">
+               ReferencedContainer = "container:Soul de Soul.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "250CA36D197B1D0F006A6735"
                BuildableName = "SDS-2014-2015Tests.xctest"
                BlueprintName = "SDS-2014-2015Tests"
-               ReferencedContainer = "container:SDS-2014-2015.xcodeproj">
+               ReferencedContainer = "container:Soul de Soul.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "250CA346197B1D0F006A6735"
             BuildableName = "SDS-2014-2015.app"
             BlueprintName = "SDS-2014-2015"
-            ReferencedContainer = "container:SDS-2014-2015.xcodeproj">
+            ReferencedContainer = "container:Soul de Soul.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -58,13 +58,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "250CA346197B1D0F006A6735"
             BuildableName = "SDS-2014-2015.app"
             BlueprintName = "SDS-2014-2015"
-            ReferencedContainer = "container:SDS-2014-2015.xcodeproj">
+            ReferencedContainer = "container:Soul de Soul.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,13 +77,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "250CA346197B1D0F006A6735"
             BuildableName = "SDS-2014-2015.app"
             BlueprintName = "SDS-2014-2015"
-            ReferencedContainer = "container:SDS-2014-2015.xcodeproj">
+            ReferencedContainer = "container:Soul de Soul.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

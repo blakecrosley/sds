@@ -283,7 +283,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 250CA342197B1D0F006A6735 /* Build configuration list for PBXProject "SDS-2014-2015" */;
+			buildConfigurationList = 250CA342197B1D0F006A6735 /* Build configuration list for PBXProject "Soul de Soul" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -512,6 +512,7 @@
 				GCC_PREFIX_HEADER = "SDS-2014-2015/SDS-2014-2015-Prefix.pch";
 				INFOPLIST_FILE = "SDS-2014-2015/SDS-2014-2015-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -527,6 +528,7 @@
 				GCC_PREFIX_HEADER = "SDS-2014-2015/SDS-2014-2015-Prefix.pch";
 				INFOPLIST_FILE = "SDS-2014-2015/SDS-2014-2015-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -574,7 +576,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		250CA342197B1D0F006A6735 /* Build configuration list for PBXProject "SDS-2014-2015" */ = {
+		250CA342197B1D0F006A6735 /* Build configuration list for PBXProject "Soul de Soul" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				250CA37D197B1D0F006A6735 /* Debug */,
