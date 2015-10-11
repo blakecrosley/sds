@@ -26,7 +26,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.url = [NSURL URLWithString:@"http://www.instagram.com/souldesoul"];
+        self.url = [NSURL URLWithString:@"https://www.instagram.com/souldesoul"];
     }
     return self;
 }
@@ -38,6 +38,11 @@
     self.instagramWV.delegate = self;
     self.instagramWV.opaque = NO;
     self.instagramWV.backgroundColor = [UIColor clearColor];
+    
+    UIView *titleView = self.navigationItem.titleView;
+    if (titleView != nil && [titleView isKindOfClass:[UIImageView class]]){
+        [((UIImageView*)titleView) setContentMode:UIViewContentModeCenter];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated

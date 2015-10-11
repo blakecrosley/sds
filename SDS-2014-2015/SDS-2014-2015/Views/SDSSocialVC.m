@@ -27,7 +27,6 @@
 {
     [super viewDidLoad];
     
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
     // Do any additional setup after loading the view.
 }
 
@@ -40,15 +39,15 @@
 #pragma mark - Event Handlers
 
 - (IBAction)instagramTUI:(id)sender {
-    [self navigateToURL:[NSURL URLWithString:@"http://www.instagram.com/souldesoul"]];
+    [self navigateToURL:[NSURL URLWithString:@"https://www.instagram.com/souldesoul"]];
 }
 
 - (IBAction)facebookTUI:(id)sender {
-    [self navigateToURL:[NSURL URLWithString:@"http://www.facebook.com/souldesoul"]];
+    [self navigateToURL:[NSURL URLWithString:@"https://www.facebook.com/souldesoul"]];
 }
 
 - (IBAction)twitterTUI:(id)sender {
-    [self navigateToURL:[NSURL URLWithString:@"http://www.twitter.com/souldesoul"]];
+    [self navigateToURL:[NSURL URLWithString:@"https://www.twitter.com/souldesoul"]];
 }
 
 - (void)navigateToURL:(NSURL*)url

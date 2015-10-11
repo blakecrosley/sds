@@ -14,6 +14,9 @@
 {
     // Override point for customization after application launch.
     [NSThread sleepForTimeInterval:1.5]; //add 1.5 seconds longer.
+    
+    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:0.2532 green:0.7641 blue:0.3454 alpha:1.0]];
+    [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:0.1506 green:0.1506 blue:0.1506 alpha:1.0]];
     return YES;
 }
 

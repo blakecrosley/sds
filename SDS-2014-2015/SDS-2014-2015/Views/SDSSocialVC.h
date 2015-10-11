@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDSSocialVC : UIViewController
+@interface SDSSocialVC : SDSBaseViewController
 
 @end

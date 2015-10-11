@@ -16,4 +16,6 @@
 
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "SDSWebViewController.h"
+#import "SDSBaseViewController.h"
+#import "SDSBaseTableViewController.h"
 #endif

@@ -27,10 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:0.333 green:0.699 blue:0.210 alpha:1.000]];
-    [[UITabBar appearance] setBarTintColor:[UIColor blackColor]];
-    
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]];
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -48,7 +48,7 @@
     
     self.teacherBio.frame = CGRectMake(self.teacherBio.frame.origin.x, self.teacherBio.frame.origin.y, contentSize.width, contentSize.height);
 
-    CGSize containerSize = CGSizeMake(contentSize.width, contentSize.height + self.teacherBio.frame.origin.y + 130.0);
+    CGSize containerSize = CGSizeMake(contentSize.width, contentSize.height + self.teacherBio.frame.origin.y + 100.0);
     self.teachBioScrollView.contentSize = containerSize;
 }
 

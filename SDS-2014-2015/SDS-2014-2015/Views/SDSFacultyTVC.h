@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDSFacultyTVC : UITableViewController
+@interface SDSFacultyTVC : SDSBaseTableViewController
 
 @end

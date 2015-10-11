@@ -2,13 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "victoria-blurred.png"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "victoria-blurred@2x.png"
+      "filename" : "victoria-blurred.pdf"
     }
   ],
   "info" : {

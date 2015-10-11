@@ -2,13 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "teddy.png"
+      "filename" : "teddy.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "teddy@2x.png"
+      "filename" : "teddy@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "teddy@3x.png",
+      "scale" : "3x"
     }
   ],
   "info" : {

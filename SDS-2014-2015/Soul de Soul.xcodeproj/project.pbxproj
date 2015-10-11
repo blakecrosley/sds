@@ -27,6 +27,9 @@
 		250CA398197B2084006A6735 /* SDSTeacherProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */; };
 		25366A9B19B7F9EF00EB2F1F /* SDSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25366A9919B7F9EF00EB2F1F /* SDSWebViewController.m */; };
 		25366A9C19B7F9EF00EB2F1F /* SDSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25366A9A19B7F9EF00EB2F1F /* SDSWebViewController.xib */; };
+		2564597B1BC9DC7A005B25DC /* SDSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2564597A1BC9DC7A005B25DC /* SDSBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2564597E1BC9DD69005B25DC /* SDSBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2564597D1BC9DD69005B25DC /* SDSBaseTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		258A185D1B9407A500C1BDB7 /* SDSRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 258A185C1B9407A500C1BDB7 /* SDSRegisterVC.m */; };
 		25CB36B519B4338D00F5000A /* SDSMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B419B4338D00F5000A /* SDSMainTBC.m */; };
 		25CB36B819B43A6E00F5000A /* SDSSocialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B719B43A6E00F5000A /* SDSSocialVC.m */; };
 		D7E25C6364F04A2588B6D697 /* libPods-SDS-2014-2015.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBFE4E83784A98838E9B00 /* libPods-SDS-2014-2015.a */; };
@@ -73,6 +76,12 @@
 		25366A9819B7F9EF00EB2F1F /* SDSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDSWebViewController.h; path = WebViews/SDSWebViewController.h; sourceTree = "<group>"; };
 		25366A9919B7F9EF00EB2F1F /* SDSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDSWebViewController.m; path = WebViews/SDSWebViewController.m; sourceTree = "<group>"; };
 		25366A9A19B7F9EF00EB2F1F /* SDSWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SDSWebViewController.xib; path = WebViews/SDSWebViewController.xib; sourceTree = "<group>"; };
+		256459791BC9DC7A005B25DC /* SDSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSBaseViewController.h; sourceTree = "<group>"; };
+		2564597A1BC9DC7A005B25DC /* SDSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSBaseViewController.m; sourceTree = "<group>"; };
+		2564597C1BC9DD69005B25DC /* SDSBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSBaseTableViewController.h; sourceTree = "<group>"; };
+		2564597D1BC9DD69005B25DC /* SDSBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSBaseTableViewController.m; sourceTree = "<group>"; };
+		258A185B1B9407A500C1BDB7 /* SDSRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSRegisterVC.h; sourceTree = "<group>"; };
+		258A185C1B9407A500C1BDB7 /* SDSRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSRegisterVC.m; sourceTree = "<group>"; };
 		25CB36B319B4338D00F5000A /* SDSMainTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSMainTBC.h; sourceTree = "<group>"; };
 		25CB36B419B4338D00F5000A /* SDSMainTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSMainTBC.m; sourceTree = "<group>"; };
 		25CB36B619B43A6E00F5000A /* SDSSocialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSSocialVC.h; sourceTree = "<group>"; };
@@ -197,6 +206,12 @@
 				25CB36B419B4338D00F5000A /* SDSMainTBC.m */,
 				25CB36B619B43A6E00F5000A /* SDSSocialVC.h */,
 				25CB36B719B43A6E00F5000A /* SDSSocialVC.m */,
+				258A185B1B9407A500C1BDB7 /* SDSRegisterVC.h */,
+				258A185C1B9407A500C1BDB7 /* SDSRegisterVC.m */,
+				256459791BC9DC7A005B25DC /* SDSBaseViewController.h */,
+				2564597A1BC9DC7A005B25DC /* SDSBaseViewController.m */,
+				2564597C1BC9DD69005B25DC /* SDSBaseTableViewController.h */,
+				2564597D1BC9DD69005B25DC /* SDSBaseTableViewController.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -363,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				258A185D1B9407A500C1BDB7 /* SDSRegisterVC.m in Sources */,
 				25366A9B19B7F9EF00EB2F1F /* SDSWebViewController.m in Sources */,
 				250CA398197B2084006A6735 /* SDSTeacherProfileVC.m in Sources */,
 				250CA390197B1DB0006A6735 /* SDSTeacherTVCell.m in Sources */,
@@ -371,7 +387,9 @@
 				25CB36B819B43A6E00F5000A /* SDSSocialVC.m in Sources */,
 				250CA38E197B1DB0006A6735 /* SDSFacultyTVC.m in Sources */,
 				250CA35B197B1D0F006A6735 /* SDSAppDelegate.m in Sources */,
+				2564597B1BC9DC7A005B25DC /* SDSBaseViewController.m in Sources */,
 				25CB36B519B4338D00F5000A /* SDSMainTBC.m in Sources */,
+				2564597E1BC9DD69005B25DC /* SDSBaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

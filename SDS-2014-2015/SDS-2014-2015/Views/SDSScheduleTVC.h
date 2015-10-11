@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDSScheduleTVC : UITableViewController
+@interface SDSScheduleTVC : SDSBaseTableViewController
 
 @end
