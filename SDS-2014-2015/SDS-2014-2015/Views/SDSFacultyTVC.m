@@ -40,7 +40,7 @@
     
     self.teacherNames = [[NSArray alloc]
                      initWithObjects:
-                            @"Amelia Lowe",
+                            @"Amelia Lowe (guest)",
                             @"Audrey Case",
                             @"Cameron\"Misfit\" Graham",
                             @"Cat Cogliandro",
@@ -50,13 +50,13 @@
                             @"Hilary McAlister",
                             @"Jason Gorman",
                             @"Justine Menter",
-                            @"Kali Mathews",
-                            @"Kate Jablonski",
-                            @"Liz Terry",
+                            @"Kali Mathews (guest)",
+                            @"Kate Jablonski (guest)",
+                            @"Liz Terry (guest)",
                             @"Lynse Iwersen",
                             @"MacKenzie Crosley",
-                            @"Patricia",
-                            @"Sarah - Katarina \"SKooJ CorE-O\"",
+                            @"Patricia Oplotnik (guest)",
+                            @"Sarah Katarina (guest)",
                             @"Teddy Tedholm",
                             @"Victoria Brown",
                          nil];
@@ -193,7 +193,7 @@
     cell.teacherNameLabel.text = [self.teacherNames objectAtIndex: [indexPath row]];
 
     UIView *bgColorView = [[UIView alloc] init];
-    bgColorView.backgroundColor = [UIColor blackColor];
+    bgColorView.backgroundColor = [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1.0];
     [cell setSelectedBackgroundView:bgColorView];
     
     UIImage *teacherImage = [UIImage imageNamed: [self.teacherImages objectAtIndex: [indexPath row]]];

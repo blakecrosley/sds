@@ -2,4 +2,54 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SDS-2014-2015/Views/SDSFacultyTVC.m"
+            timestampString = "466663314.609331"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "teacherNames"
+            landmarkType = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SDSFacultyTVC teacherNames]"
+                  moduleName = "SDS-2014-2015"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Blake/Projects/sds/SDS-2014-2015/SDS-2014-2015/Views/SDSFacultyTVC.m"
+                  timestampString = "466663314.649096"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SDSFacultyTVC setTeacherNames:]"
+                  moduleName = "SDS-2014-2015"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Blake/Projects/sds/SDS-2014-2015/SDS-2014-2015/Views/SDSFacultyTVC.m"
+                  timestampString = "466663314.649507"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

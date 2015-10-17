@@ -56,7 +56,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     UIView *bgColorView = [[UIView alloc] init];
-    bgColorView.backgroundColor = [UIColor blackColor];
+    bgColorView.backgroundColor = [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1.0];
     [cell setSelectedBackgroundView:bgColorView];
 }
 

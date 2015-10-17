@@ -43,7 +43,7 @@
 }
 
 - (IBAction)facebookTUI:(id)sender {
-    [self navigateToURL:[NSURL URLWithString:@"https://www.facebook.com/souldesoul"]];
+    [self navigateToURL:[NSURL URLWithString:@"https://www.facebook.com/souldesoul.dance"]];
 }
 
 - (IBAction)twitterTUI:(id)sender {

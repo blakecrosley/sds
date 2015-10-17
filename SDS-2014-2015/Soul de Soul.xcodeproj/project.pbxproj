@@ -30,6 +30,7 @@
 		2564597B1BC9DC7A005B25DC /* SDSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2564597A1BC9DC7A005B25DC /* SDSBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2564597E1BC9DD69005B25DC /* SDSBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2564597D1BC9DD69005B25DC /* SDSBaseTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		258A185D1B9407A500C1BDB7 /* SDSRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 258A185C1B9407A500C1BDB7 /* SDSRegisterVC.m */; };
+		258D82D41BD0D35C00AAFA43 /* launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258D82D31BD0D35C00AAFA43 /* launch.storyboard */; settings = {ASSET_TAGS = (); }; };
 		25CB36B519B4338D00F5000A /* SDSMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B419B4338D00F5000A /* SDSMainTBC.m */; };
 		25CB36B819B43A6E00F5000A /* SDSSocialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B719B43A6E00F5000A /* SDSSocialVC.m */; };
 		D7E25C6364F04A2588B6D697 /* libPods-SDS-2014-2015.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBFE4E83784A98838E9B00 /* libPods-SDS-2014-2015.a */; };
@@ -82,6 +83,7 @@
 		2564597D1BC9DD69005B25DC /* SDSBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSBaseTableViewController.m; sourceTree = "<group>"; };
 		258A185B1B9407A500C1BDB7 /* SDSRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSRegisterVC.h; sourceTree = "<group>"; };
 		258A185C1B9407A500C1BDB7 /* SDSRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSRegisterVC.m; sourceTree = "<group>"; };
+		258D82D31BD0D35C00AAFA43 /* launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launch.storyboard; sourceTree = "<group>"; };
 		25CB36B319B4338D00F5000A /* SDSMainTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSMainTBC.h; sourceTree = "<group>"; };
 		25CB36B419B4338D00F5000A /* SDSMainTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSMainTBC.m; sourceTree = "<group>"; };
 		25CB36B619B43A6E00F5000A /* SDSSocialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSSocialVC.h; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		250CA33E197B1D0F006A6735 = {
 			isa = PBXGroup;
 			children = (
+				258D82D31BD0D35C00AAFA43 /* launch.storyboard */,
 				250CA350197B1D0F006A6735 /* SDS-2014-2015 */,
 				250CA375197B1D0F006A6735 /* SDS-2014-2015Tests */,
 				250CA349197B1D0F006A6735 /* Frameworks */,
@@ -325,6 +328,7 @@
 				25366A9C19B7F9EF00EB2F1F /* SDSWebViewController.xib in Resources */,
 				250CA361197B1D0F006A6735 /* Main_iPad.storyboard in Resources */,
 				250CA369197B1D0F006A6735 /* Images.xcassets in Resources */,
+				258D82D41BD0D35C00AAFA43 /* launch.storyboard in Resources */,
 				250CA35E197B1D0F006A6735 /* Main_iPhone.storyboard in Resources */,
 				250CA355197B1D0F006A6735 /* InfoPlist.strings in Resources */,
 			);
@@ -524,11 +528,11 @@
 			baseConfigurationReference = 3E7EA7C280145686B76D065A /* Pods-SDS-2014-2015.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDS-2014-2015/SDS-2014-2015-Prefix.pch";
 				INFOPLIST_FILE = "SDS-2014-2015/SDS-2014-2015-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -540,11 +544,11 @@
 			baseConfigurationReference = C2A74F878B510ABA4A225566 /* Pods-SDS-2014-2015.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDS-2014-2015/SDS-2014-2015-Prefix.pch";
 				INFOPLIST_FILE = "SDS-2014-2015/SDS-2014-2015-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
