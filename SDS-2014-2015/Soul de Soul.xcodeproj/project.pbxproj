@@ -25,6 +25,14 @@
 		250CA38F197B1DB0006A6735 /* SDSScheduleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA38B197B1DB0006A6735 /* SDSScheduleTVC.m */; };
 		250CA390197B1DB0006A6735 /* SDSTeacherTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */; };
 		250CA398197B2084006A6735 /* SDSTeacherProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */; };
+		2522B8E81BD437A400FCBAC3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2522B8E61BD437A400FCBAC3 /* Interface.storyboard */; };
+		2522B8EA1BD437A400FCBAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2522B8E91BD437A400FCBAC3 /* Assets.xcassets */; };
+		2522B8F11BD437A400FCBAC3 /* SDS_Watch_App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2522B8F01BD437A400FCBAC3 /* SDS_Watch_App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2522B8F91BD437A400FCBAC3 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2522B8F81BD437A400FCBAC3 /* InterfaceController.m */; };
+		2522B8FC1BD437A400FCBAC3 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2522B8FB1BD437A400FCBAC3 /* ExtensionDelegate.m */; };
+		2522B8FF1BD437A400FCBAC3 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2522B8FE1BD437A400FCBAC3 /* NotificationController.m */; };
+		2522B9011BD437A400FCBAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2522B9001BD437A400FCBAC3 /* Assets.xcassets */; };
+		2522B9051BD437A400FCBAC3 /* SDS_Watch_App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2522B8E41BD437A300FCBAC3 /* SDS_Watch_App.app */; };
 		25366A9B19B7F9EF00EB2F1F /* SDSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25366A9919B7F9EF00EB2F1F /* SDSWebViewController.m */; };
 		25366A9C19B7F9EF00EB2F1F /* SDSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25366A9A19B7F9EF00EB2F1F /* SDSWebViewController.xib */; };
 		2564597B1BC9DC7A005B25DC /* SDSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2564597A1BC9DC7A005B25DC /* SDSBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -44,7 +52,46 @@
 			remoteGlobalIDString = 250CA346197B1D0F006A6735;
 			remoteInfo = "SDS-2014-2015";
 		};
+		2522B8F21BD437A400FCBAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250CA33F197B1D0F006A6735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2522B8EF1BD437A400FCBAC3;
+			remoteInfo = "SDS_Watch_App Extension";
+		};
+		2522B9031BD437A400FCBAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250CA33F197B1D0F006A6735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2522B8E31BD437A300FCBAC3;
+			remoteInfo = SDS_Watch_App;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2522B8BB1BD4316900FCBAC3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2522B9051BD437A400FCBAC3 /* SDS_Watch_App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2522B9091BD437A400FCBAC3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2522B8F11BD437A400FCBAC3 /* SDS_Watch_App Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0EDBFE4E83784A98838E9B00 /* libPods-SDS-2014-2015.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDS-2014-2015.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +121,20 @@
 		250CA38D197B1DB0006A6735 /* SDSTeacherTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSTeacherTVCell.m; sourceTree = "<group>"; };
 		250CA396197B2084006A6735 /* SDSTeacherProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSTeacherProfileVC.h; sourceTree = "<group>"; };
 		250CA397197B2084006A6735 /* SDSTeacherProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSTeacherProfileVC.m; sourceTree = "<group>"; };
+		2522B8E41BD437A300FCBAC3 /* SDS_Watch_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDS_Watch_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2522B8E71BD437A400FCBAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2522B8E91BD437A400FCBAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2522B8EB1BD437A400FCBAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2522B8F01BD437A400FCBAC3 /* SDS_Watch_App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SDS_Watch_App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2522B8F61BD437A400FCBAC3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2522B8F71BD437A400FCBAC3 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		2522B8F81BD437A400FCBAC3 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		2522B8FA1BD437A400FCBAC3 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		2522B8FB1BD437A400FCBAC3 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		2522B8FD1BD437A400FCBAC3 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		2522B8FE1BD437A400FCBAC3 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		2522B9001BD437A400FCBAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2522B9021BD437A400FCBAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25366A9819B7F9EF00EB2F1F /* SDSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDSWebViewController.h; path = WebViews/SDSWebViewController.h; sourceTree = "<group>"; };
 		25366A9919B7F9EF00EB2F1F /* SDSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDSWebViewController.m; path = WebViews/SDSWebViewController.m; sourceTree = "<group>"; };
 		25366A9A19B7F9EF00EB2F1F /* SDSWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SDSWebViewController.xib; path = WebViews/SDSWebViewController.xib; sourceTree = "<group>"; };
@@ -114,6 +175,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2522B8ED1BD437A400FCBAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -123,6 +191,8 @@
 				258D82D31BD0D35C00AAFA43 /* launch.storyboard */,
 				250CA350197B1D0F006A6735 /* SDS-2014-2015 */,
 				250CA375197B1D0F006A6735 /* SDS-2014-2015Tests */,
+				2522B8E51BD437A400FCBAC3 /* SDS_Watch_App */,
+				2522B8F41BD437A400FCBAC3 /* SDS_Watch_App Extension */,
 				250CA349197B1D0F006A6735 /* Frameworks */,
 				250CA348197B1D0F006A6735 /* Products */,
 				4B218D908F1979D9AFEC290C /* Pods */,
@@ -134,6 +204,8 @@
 			children = (
 				250CA347197B1D0F006A6735 /* SDS-2014-2015.app */,
 				250CA36E197B1D0F006A6735 /* SDS-2014-2015Tests.xctest */,
+				2522B8E41BD437A300FCBAC3 /* SDS_Watch_App.app */,
+				2522B8F01BD437A400FCBAC3 /* SDS_Watch_App Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,6 +291,40 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		2522B8E51BD437A400FCBAC3 /* SDS_Watch_App */ = {
+			isa = PBXGroup;
+			children = (
+				2522B8E61BD437A400FCBAC3 /* Interface.storyboard */,
+				2522B8E91BD437A400FCBAC3 /* Assets.xcassets */,
+				2522B8EB1BD437A400FCBAC3 /* Info.plist */,
+			);
+			path = SDS_Watch_App;
+			sourceTree = "<group>";
+		};
+		2522B8F41BD437A400FCBAC3 /* SDS_Watch_App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2522B8F71BD437A400FCBAC3 /* InterfaceController.h */,
+				2522B8F81BD437A400FCBAC3 /* InterfaceController.m */,
+				2522B8FA1BD437A400FCBAC3 /* ExtensionDelegate.h */,
+				2522B8FB1BD437A400FCBAC3 /* ExtensionDelegate.m */,
+				2522B8FD1BD437A400FCBAC3 /* NotificationController.h */,
+				2522B8FE1BD437A400FCBAC3 /* NotificationController.m */,
+				2522B9001BD437A400FCBAC3 /* Assets.xcassets */,
+				2522B9021BD437A400FCBAC3 /* Info.plist */,
+				2522B8F51BD437A400FCBAC3 /* Supporting Files */,
+			);
+			path = "SDS_Watch_App Extension";
+			sourceTree = "<group>";
+		};
+		2522B8F51BD437A400FCBAC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2522B8F61BD437A400FCBAC3 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		25366A9719B7F9CF00EB2F1F /* WebViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,10 +356,12 @@
 				250CA344197B1D0F006A6735 /* Frameworks */,
 				250CA345197B1D0F006A6735 /* Resources */,
 				3035D8BA9E7A4E46977C6E30 /* Copy Pods Resources */,
+				2522B8BB1BD4316900FCBAC3 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2522B9041BD437A400FCBAC3 /* PBXTargetDependency */,
 			);
 			name = "SDS-2014-2015";
 			productName = "SDS-2014-2015";
@@ -278,6 +386,40 @@
 			productReference = 250CA36E197B1D0F006A6735 /* SDS-2014-2015Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2522B8E31BD437A300FCBAC3 /* SDS_Watch_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2522B90A1BD437A400FCBAC3 /* Build configuration list for PBXNativeTarget "SDS_Watch_App" */;
+			buildPhases = (
+				2522B8E21BD437A300FCBAC3 /* Resources */,
+				2522B9091BD437A400FCBAC3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2522B8F31BD437A400FCBAC3 /* PBXTargetDependency */,
+			);
+			name = SDS_Watch_App;
+			productName = SDS_Watch_App;
+			productReference = 2522B8E41BD437A300FCBAC3 /* SDS_Watch_App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2522B8EF1BD437A400FCBAC3 /* SDS_Watch_App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2522B9061BD437A400FCBAC3 /* Build configuration list for PBXNativeTarget "SDS_Watch_App Extension" */;
+			buildPhases = (
+				2522B8EC1BD437A400FCBAC3 /* Sources */,
+				2522B8ED1BD437A400FCBAC3 /* Frameworks */,
+				2522B8EE1BD437A400FCBAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDS_Watch_App Extension";
+			productName = "SDS_Watch_App Extension";
+			productReference = 2522B8F01BD437A400FCBAC3 /* SDS_Watch_App Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -285,8 +427,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SDS;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "SoulDeSoul, LLC.";
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Soul de Soul, LLC.";
 				TargetAttributes = {
 					250CA346197B1D0F006A6735 = {
 						DevelopmentTeam = G76K36D6Y7;
@@ -298,6 +440,14 @@
 					};
 					250CA36D197B1D0F006A6735 = {
 						TestTargetID = 250CA346197B1D0F006A6735;
+					};
+					2522B8E31BD437A300FCBAC3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = G76K36D6Y7;
+					};
+					2522B8EF1BD437A400FCBAC3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = G76K36D6Y7;
 					};
 				};
 			};
@@ -316,6 +466,8 @@
 			targets = (
 				250CA346197B1D0F006A6735 /* SDS-2014-2015 */,
 				250CA36D197B1D0F006A6735 /* SDS-2014-2015Tests */,
+				2522B8E31BD437A300FCBAC3 /* SDS_Watch_App */,
+				2522B8EF1BD437A400FCBAC3 /* SDS_Watch_App Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -339,6 +491,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				250CA37A197B1D0F006A6735 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2522B8E21BD437A300FCBAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2522B8EA1BD437A400FCBAC3 /* Assets.xcassets in Resources */,
+				2522B8E81BD437A400FCBAC3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2522B8EE1BD437A400FCBAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2522B9011BD437A400FCBAC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +574,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2522B8EC1BD437A400FCBAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2522B8FC1BD437A400FCBAC3 /* ExtensionDelegate.m in Sources */,
+				2522B8F91BD437A400FCBAC3 /* InterfaceController.m in Sources */,
+				2522B8FF1BD437A400FCBAC3 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -412,6 +591,16 @@
 			isa = PBXTargetDependency;
 			target = 250CA346197B1D0F006A6735 /* SDS-2014-2015 */;
 			targetProxy = 250CA373197B1D0F006A6735 /* PBXContainerItemProxy */;
+		};
+		2522B8F31BD437A400FCBAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2522B8EF1BD437A400FCBAC3 /* SDS_Watch_App Extension */;
+			targetProxy = 2522B8F21BD437A400FCBAC3 /* PBXContainerItemProxy */;
+		};
+		2522B9041BD437A400FCBAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2522B8E31BD437A300FCBAC3 /* SDS_Watch_App */;
+			targetProxy = 2522B9031BD437A400FCBAC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -448,6 +637,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		2522B8E61BD437A400FCBAC3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2522B8E71BD437A400FCBAC3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -469,6 +666,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -483,7 +681,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,7 +705,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -516,7 +714,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -533,6 +731,7 @@
 				GCC_PREFIX_HEADER = "SDS-2014-2015/SDS-2014-2015-Prefix.pch";
 				INFOPLIST_FILE = "SDS-2014-2015/SDS-2014-2015-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoulDeSoul.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -549,6 +748,7 @@
 				GCC_PREFIX_HEADER = "SDS-2014-2015/SDS-2014-2015-Prefix.pch";
 				INFOPLIST_FILE = "SDS-2014-2015/SDS-2014-2015-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoulDeSoul.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -571,6 +771,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "SDS-2014-2015Tests/SDS-2014-2015Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Soul-De-Soul.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -589,9 +790,98 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDS-2014-2015/SDS-2014-2015-Prefix.pch";
 				INFOPLIST_FILE = "SDS-2014-2015Tests/SDS-2014-2015Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Soul-De-Soul.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		2522B9071BD437A400FCBAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "SDS_Watch_App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = SoulDeSoul.App.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2522B9081BD437A400FCBAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "SDS_Watch_App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = SoulDeSoul.App.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		2522B90B1BD437A400FCBAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = SDS_Watch_App_Extension;
+				INFOPLIST_FILE = SDS_Watch_App/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = SoulDeSoul.App.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		2522B90C1BD437A400FCBAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = SDS_Watch_App_Extension;
+				INFOPLIST_FILE = SDS_Watch_App/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = SoulDeSoul.App.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -621,6 +911,24 @@
 			buildConfigurations = (
 				250CA383197B1D0F006A6735 /* Debug */,
 				250CA384197B1D0F006A6735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2522B9061BD437A400FCBAC3 /* Build configuration list for PBXNativeTarget "SDS_Watch_App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2522B9071BD437A400FCBAC3 /* Debug */,
+				2522B9081BD437A400FCBAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2522B90A1BD437A400FCBAC3 /* Build configuration list for PBXNativeTarget "SDS_Watch_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2522B90B1BD437A400FCBAC3 /* Debug */,
+				2522B90C1BD437A400FCBAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

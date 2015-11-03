@@ -26,15 +26,15 @@
                                     <constraint firstAttribute="width" constant="441" id="eIh-BC-D12"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="SOULDESOUL" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOULDESOUL" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
                                 <rect key="frame" x="20" y="261" width="560" height="43"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="TOUR" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="dzq-Bj-ruL">
-                                <rect key="frame" x="20" y="295" width="560" height="43"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOUR" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="dzq-Bj-ruL">
+                                <rect key="frame" x="20" y="295" width="560" height="29"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
                                 <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,7 +45,9 @@
                         <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="leadingMargin" secondItem="dzq-Bj-ruL" secondAttribute="leading" id="0ra-hs-L3E"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="241" id="559-EZ-Gc2"/>
                             <constraint firstItem="GJd-Yh-RWb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5Gn-wX-MNy"/>
+                            <constraint firstItem="dzq-Bj-ruL" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="275" id="92P-1f-saJ"/>
                             <constraint firstAttribute="leadingMargin" secondItem="GJd-Yh-RWb" secondAttribute="leading" id="A6G-k9-LCr"/>
                             <constraint firstItem="JX5-7h-gEI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ATc-43-gA2"/>
                             <constraint firstItem="JX5-7h-gEI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ts7-rf-h9P"/>

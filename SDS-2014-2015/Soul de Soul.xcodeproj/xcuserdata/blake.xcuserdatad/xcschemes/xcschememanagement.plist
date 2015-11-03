@@ -4,10 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Notification - SDS_Watch_App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Notification - SouldeSoul.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>SDS-2014-2015.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>SDS_Watch_App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>SoulDeSoul.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>SouldeSoul.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +43,21 @@
 			<true/>
 		</dict>
 		<key>250CA36D197B1D0F006A6735</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2522B8911BD4316900FCBAC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2522B8BD1BD4372B00FCBAC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2522B8E31BD437A300FCBAC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
