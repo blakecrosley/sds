@@ -42,6 +42,10 @@
 		259D104B1BE9C29C003F11B5 /* SDSRochesterTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D104A1BE9C29C003F11B5 /* SDSRochesterTVC.m */; };
 		25CB36B519B4338D00F5000A /* SDSMainTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B419B4338D00F5000A /* SDSMainTBC.m */; };
 		25CB36B819B43A6E00F5000A /* SDSSocialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB36B719B43A6E00F5000A /* SDSSocialVC.m */; };
+		25D1ACB81C0EC35B006F512D /* SDSDallasTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1ACB71C0EC35B006F512D /* SDSDallasTVC.m */; };
+		25D1ACBB1C0EC40F006F512D /* SDSBostonTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1ACBA1C0EC40F006F512D /* SDSBostonTVC.m */; };
+		25D1ACBE1C0EC41B006F512D /* SDSDenverTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1ACBD1C0EC41B006F512D /* SDSDenverTVC.m */; };
+		25D1ACC11C0EC429006F512D /* SDSChicagoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D1ACC01C0EC429006F512D /* SDSChicagoTVC.m */; };
 		D7E25C6364F04A2588B6D697 /* libPods-SDS-2014-2015.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDBFE4E83784A98838E9B00 /* libPods-SDS-2014-2015.a */; };
 /* End PBXBuildFile section */
 
@@ -152,6 +156,14 @@
 		25CB36B419B4338D00F5000A /* SDSMainTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSMainTBC.m; sourceTree = "<group>"; };
 		25CB36B619B43A6E00F5000A /* SDSSocialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSSocialVC.h; sourceTree = "<group>"; };
 		25CB36B719B43A6E00F5000A /* SDSSocialVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSSocialVC.m; sourceTree = "<group>"; };
+		25D1ACB61C0EC35B006F512D /* SDSDallasTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSDallasTVC.h; sourceTree = "<group>"; };
+		25D1ACB71C0EC35B006F512D /* SDSDallasTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSDallasTVC.m; sourceTree = "<group>"; };
+		25D1ACB91C0EC40F006F512D /* SDSBostonTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSBostonTVC.h; sourceTree = "<group>"; };
+		25D1ACBA1C0EC40F006F512D /* SDSBostonTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSBostonTVC.m; sourceTree = "<group>"; };
+		25D1ACBC1C0EC41B006F512D /* SDSDenverTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSDenverTVC.h; sourceTree = "<group>"; };
+		25D1ACBD1C0EC41B006F512D /* SDSDenverTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSDenverTVC.m; sourceTree = "<group>"; };
+		25D1ACBF1C0EC429006F512D /* SDSChicagoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSChicagoTVC.h; sourceTree = "<group>"; };
+		25D1ACC01C0EC429006F512D /* SDSChicagoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSChicagoTVC.m; sourceTree = "<group>"; };
 		3E7EA7C280145686B76D065A /* Pods-SDS-2014-2015.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDS-2014-2015.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDS-2014-2015/Pods-SDS-2014-2015.debug.xcconfig"; sourceTree = "<group>"; };
 		C2A74F878B510ABA4A225566 /* Pods-SDS-2014-2015.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDS-2014-2015.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDS-2014-2015/Pods-SDS-2014-2015.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -292,6 +304,14 @@
 				2564597D1BC9DD69005B25DC /* SDSBaseTableViewController.m */,
 				259D10491BE9C29C003F11B5 /* SDSRochesterTVC.h */,
 				259D104A1BE9C29C003F11B5 /* SDSRochesterTVC.m */,
+				25D1ACB61C0EC35B006F512D /* SDSDallasTVC.h */,
+				25D1ACB71C0EC35B006F512D /* SDSDallasTVC.m */,
+				25D1ACB91C0EC40F006F512D /* SDSBostonTVC.h */,
+				25D1ACBA1C0EC40F006F512D /* SDSBostonTVC.m */,
+				25D1ACBC1C0EC41B006F512D /* SDSDenverTVC.h */,
+				25D1ACBD1C0EC41B006F512D /* SDSDenverTVC.m */,
+				25D1ACBF1C0EC429006F512D /* SDSChicagoTVC.h */,
+				25D1ACC01C0EC429006F512D /* SDSChicagoTVC.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -560,12 +580,16 @@
 				25366A9B19B7F9EF00EB2F1F /* SDSWebViewController.m in Sources */,
 				250CA398197B2084006A6735 /* SDSTeacherProfileVC.m in Sources */,
 				259D104B1BE9C29C003F11B5 /* SDSRochesterTVC.m in Sources */,
+				25D1ACBE1C0EC41B006F512D /* SDSDenverTVC.m in Sources */,
 				250CA390197B1DB0006A6735 /* SDSTeacherTVCell.m in Sources */,
 				250CA38F197B1DB0006A6735 /* SDSScheduleTVC.m in Sources */,
 				250CA357197B1D0F006A6735 /* main.m in Sources */,
 				25CB36B819B43A6E00F5000A /* SDSSocialVC.m in Sources */,
 				250CA38E197B1DB0006A6735 /* SDSFacultyTVC.m in Sources */,
+				25D1ACB81C0EC35B006F512D /* SDSDallasTVC.m in Sources */,
 				250CA35B197B1D0F006A6735 /* SDSAppDelegate.m in Sources */,
+				25D1ACBB1C0EC40F006F512D /* SDSBostonTVC.m in Sources */,
+				25D1ACC11C0EC429006F512D /* SDSChicagoTVC.m in Sources */,
 				2564597B1BC9DC7A005B25DC /* SDSBaseViewController.m in Sources */,
 				25CB36B519B4338D00F5000A /* SDSMainTBC.m in Sources */,
 				2564597E1BC9DD69005B25DC /* SDSBaseTableViewController.m in Sources */,
